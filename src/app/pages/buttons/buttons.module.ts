@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { ButtonsRoutingModule } from './buttons-routing.module';
 import { ButtonsComponent } from './buttons.component';
+import { MaterialModule } from 'src/app/shared/modules/material.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { ButtonsComponent } from './buttons.component';
   ],
   imports: [
     CommonModule,
-    ButtonsRoutingModule
+    ButtonsRoutingModule,
+    MaterialModule
   ]
 })
 export class ButtonsModule { }

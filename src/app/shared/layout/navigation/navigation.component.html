@@ -1,1 +1,15 @@
-<p>navigation works!</p>
+<mat-list role="list" class="navigation-wrapper">
+    <div mat-subheader>Navegacion</div>
+    <a mat-list-item class="navigation-link" routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+        <mat-icon matListItemIcon>dashboard</mat-icon>
+        <span matiListItemTitle>Home</span>
+    </a>
+    <a mat-list-item class="navigation-link" routerLink="buttons">
+        <mat-icon matListItemIcon>people</mat-icon>
+        <span matiListItemTitle>Buttons</span>
+    </a>
+    <div mat-subheader>Lista normal</div>
+    <mat-list-item role="listitem">Item 1</mat-list-item>
+    <mat-list-item role="listitem">Item 2</mat-list-item>
+    <mat-list-item role="listitem">Item 3</mat-list-item>
+</mat-list>

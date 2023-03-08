@@ -20,7 +20,7 @@ $angular-material-warn: mat.define-palette(mat.$red-palette);
 
 // Create the theme object. A theme consists of configurations for individual
 // theming systems such as "color" or "typography".
-$angular-material-theme: mat.define-light-theme((
+$angular-material-theme: mat.define-dark-theme((
   color: (
     primary: $angular-material-primary,
     accent: $angular-material-accent,
@@ -37,3 +37,11 @@ $angular-material-theme: mat.define-light-theme((
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; font-size: 16px;}
+
+.page-header {
+  padding: 1rem 2rem;
+}
+
+.page-content {
+  padding: 1rem 2rem;
+}
